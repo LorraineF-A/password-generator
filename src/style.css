@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-color: #bed9f8;
+}
+
+main{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.texto{
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 35%;
+} 
+
+.title{
+    font-size: 2.5rem;
+    margin: 0.130rem;
+}
+
+.subtitle{
+    font-size: 1.128rem;
+    color: #535353;
+}
+
+.box input{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    padding: 0.70rem 1.5rem;
+    border: none;
+    font-size: 1.45rem; 
+}
+
+.submit{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    margin: 0 135px;
+    padding: 2.5rem;
+    font-size: 1.20rem;
+}
+
+#btn {
+    position: relative;
+    background: #424242;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+#btn:active {
+    background: #b53eca;
+}
+
+#copy {
+    position: relative;
+    background: #424242;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 7px;
+}
+
+#copy:active {
+    background: #b53eca;
+}
+
+input::placeholder {
+    letter-spacing: 0;
+}
+
+@media screen and (max-width: 450px) {
+    .box{
+        padding: 1rem;
+    }
+
+    .box input{
+        font-size: 1.2rem;
+    }
+
+    .submit{
+        padding: 1rem;
+        margin: 1.2rem;
+    }
+}
+
+
